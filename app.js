@@ -8,9 +8,6 @@ app.get('/', function (req, res) {
     res.render('/index.html');
 });
 
-
-
-
 var playerCount = 0;
 var id = guid();
 var tagged = false;
