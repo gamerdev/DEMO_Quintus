@@ -1,0 +1,27 @@
+{
+  "name": "tankgame",
+  "version": "1.0.0",
+  "description": "This is a tank game!",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^1.0.6",
+    "express": "^4.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamerdev/DEMO_Quintus.git"
+  },
+  "keywords": [
+    "tankgame"
+  ],
+  "author": "gamerdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamerdev/DEMO_Quintus/issues"
+  },
+  "homepage": "https://github.com/gamerdev/DEMO_Quintus#readme"
+}
