@@ -62,6 +62,7 @@
     <Compile Include="public\javascripts\bootstrap.min.js" />
     <Compile Include="public\javascripts\jquery-3.1.0.js" />
     <Compile Include="public\javascripts\jquery-3.1.0.min.js" />
+    <Compile Include="public\javascripts\login.js" />
     <Compile Include="public\javascripts\main.js" />
     <Compile Include="public\lib\Box2dWeb-2.1.a.3.js" />
     <Compile Include="public\lib\quintus-all.js" />
@@ -127,6 +128,9 @@
     <Folder Include="public\lib" />
     <Folder Include="public\src" />
     <Folder Include="public\stylesheets\" />
+    <Folder Include="typings\" />
+    <Folder Include="typings\globals\" />
+    <Folder Include="typings\globals\express\" />
     <Folder Include="typings\globals\node" />
     <Folder Include="typings\globals\socket.io" />
   </ItemGroup>
