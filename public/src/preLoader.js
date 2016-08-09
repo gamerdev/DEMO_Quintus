@@ -1,9 +1,10 @@
 ﻿/*
-24072016: add server by node.js
-24072016: add firex, fired to control bullet throw server
-28072016: add bullet.playerID to know who shot
-30072016: Add lstX,lstY,lstID,lststop to control disconnect case (sent length packageds=-1)
-30072016: Add update to actor --> add a new state to player IsDead (Not DONE yet)
+ * 24072016: add server by node.js
+ * 24072016: add firex, fired to control bullet throw server
+ * 28072016: add bullet.playerID to know who shot
+ * 30072016: Add lstX,lstY,lstID,lststop to control disconnect case (sent length packageds=-1)
+ * 30072016: Add update to actor 
+ * 09082016: Add source to Github, remove actor update
 */
 function guid() {
     return '_' + Math.random().toString(36).substr(2, 9);
