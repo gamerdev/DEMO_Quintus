@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <!--<script src='http://cdn.html5quintus.com/v0.2.0/quintus-all.js'></script>-->
+    <script src="lib/Box2dWeb-2.1.a.3.js"></script>
+    <script src="lib/quintus-all.js"></script>
+    <script src="lib/quintus_physics.js"></script>
+    <script src="lib/quintus_svg.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <style>
+        .players {
+            z-index: 0;
+            position: absolute;
+            padding-top: 10px;
+            padding-right: 40px;
+            right: 0;
+            text-align: right;
+            font-size: 1em;
+            float:right;
+            font-family:Tahoma;
+            color:dimgray;
+            border-color:aliceblue;
+        }
+    </style>
+</head>
+<body background="http://randomwallpapers.net/minimal-nature-minimalist-1920x1080-wallpaper489764.jpg">
+    
+    <span id="players" class="players">Connecting...</span><br />
+    <span id="Scores" class="players">Connecting...</span><br />
+    <span id="Team" class="players">Connecting...</span>
+    <script src="lib/require.js"></script>
+    <script src="src/preLoader.js"></script>
+</body>
+</html>

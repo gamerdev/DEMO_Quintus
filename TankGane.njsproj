@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5b83e6e5-f697-49ce-a020-ced3881966d9}</ProjectGuid>
+    <ProjectHome />
+    <ProjectView>ProjectFiles</ProjectView>
+    <StartupFile>app.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptModuleKind>CommonJS</TypeScriptModuleKind>
+    <EnableTypeScript>true</EnableTypeScript>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Compile Include="app.js" />
+    <Content Include="public\canon.html" />
+    <Content Include="public\index.html" />
+    <TypeScriptCompile Include="typings\index.d.ts" />
+    <Content Include="public\assets\style.css" />
+    <Content Include="public\data\level.json" />
+    <Content Include="public\data\level2.json" />
+    <Content Include="public\data\player.json" />
+    <Content Include="public\data\sprites.json" />
+    <Content Include="public\images\player.png" />
+    <Content Include="public\images\Rock.png" />
+    <Content Include="public\images\sprites.png" />
+    <Content Include="public\images\tiles.png" />
+    <Compile Include="public\lib\Box2dWeb-2.1.a.3.js" />
+    <Compile Include="public\lib\quintus-all.js" />
+    <Compile Include="public\lib\quintus_physics.js" />
+    <Compile Include="public\lib\quintus_svg.js" />
+    <Compile Include="public\lib\require.js" />
+    <Compile Include="public\src\canon.js" />
+    <Compile Include="public\src\game_M.js" />
+    <Compile Include="public\src\Player.js" />
+    <Compile Include="public\src\player_M.js" />
+    <Compile Include="public\src\preLoader.js" />
+    <Content Include="public\assets\player\player01.png" />
+    <Content Include="public\assets\player\player02.png" />
+    <Content Include="public\assets\player\player03.png" />
+    <Content Include="public\assets\player\player04.png" />
+    <Content Include="public\assets\player\player05.png" />
+    <Content Include="public\assets\player\player06.png" />
+    <Content Include="public\assets\player\player07.png" />
+    <Content Include="public\assets\player\player08.png" />
+    <Content Include="public\assets\player\player09.png" />
+    <Content Include="public\assets\player\player10.png" />
+    <Content Include="public\assets\player\player11.png" />
+    <Content Include="public\assets\player\player12.png" />
+    <Content Include="public\assets\player\player13.png" />
+    <Content Include="public\assets\player\player14.png" />
+    <Content Include="public\assets\player\player15.png" />
+    <Content Include="public\assets\player\player16.png" />
+    <Content Include="public\assets\player\player17.png" />
+    <Content Include="public\assets\player\player18.png" />
+    <Content Include="typings\globals\express\typings.json" />
+    <TypeScriptCompile Include="typings\globals\express\index.d.ts" />
+    <Content Include="typings\globals\node\typings.json" />
+    <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <Content Include="typings\globals\socket.io\typings.json" />
+    <TypeScriptCompile Include="typings\globals\socket.io\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin" />
+    <Folder Include="public" />
+    <Folder Include="public\assets" />
+    <Folder Include="public\assets\player" />
+    <Folder Include="public\data" />
+    <Folder Include="public\images" />
+    <Folder Include="public\lib" />
+    <Folder Include="public\src" />
+    <Folder Include="typings" />
+    <Folder Include="typings\globals" />
+    <Folder Include="typings\globals\express" />
+    <Folder Include="typings\globals\node" />
+    <Folder Include="typings\globals\socket.io" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
