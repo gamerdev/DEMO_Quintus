@@ -74,12 +74,12 @@ window.addEventListener("load", function () {
                     this.p.opacity = 0;
                     this.p.y = -500;
                     /**********************************/
-                    //this.p.socket.emit('update', {
-                    //    playerId: this.p.playerId,
-                    //    opacity: this.p.opacity,
-                    //    x: -300,
-                    //    y: -300,
-                    //});
+                    this.p.socket.emit('update', {
+                        playerId: this.p.playerId,
+                        opacity: this.p.opacity,
+                        x: -300,
+                        y: -300,
+                    });
                     /********************************/
                     this.p.socket.emit('kdcounter', {
                         playerId: this.p.playerId,
@@ -384,7 +384,6 @@ window.addEventListener("load", function () {
                     socket: socket,
                 });
                 players.push({ player: temp, playerId: data['playerId'] });
-                //if(temp.p.playerId)
                 Q.stage(0).insert(temp);
             }
         }
