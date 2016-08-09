@@ -5,7 +5,7 @@ var io = require("socket.io")(server);
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", function (req, res) {
-    res.render("/index.html");
+    res.render("/stage.html");
 });
 
 var playerCount = 0;
